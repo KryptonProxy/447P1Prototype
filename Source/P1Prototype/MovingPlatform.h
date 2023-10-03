@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "DemoActor.generated.h"
+#include "MovingPlatform.generated.h"
 
 UCLASS()
-class P1PROTOTYPE_API ADemoActor : public AActor
+class P1PROTOTYPE_API AMovingPlatform : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	ADemoActor();
+	AMovingPlatform();
 
 protected:
 	// Called when the game starts or when spawned
@@ -22,7 +22,7 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	
 	UFUNCTION(BlueprintCallable)
 	void EnableMovement();
 
