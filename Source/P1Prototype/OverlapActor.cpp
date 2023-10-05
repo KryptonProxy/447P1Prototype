@@ -30,6 +30,6 @@ void AOverlapActor::Tick(float DeltaTime)
 
 void AOverlapActor::OverlapConsolePrint(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Cyan, TEXT("Hello!"));
+	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Cyan, TEXT("This fills a requirement. C++ is needlessly hard :("));
 }
 
